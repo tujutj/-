@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty</title>
+    <style>
+        table {
+            width: 60%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        h1 {
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+            margin: 20px auto;
+        }
+         .video {
+            flex: 1;
+        }
+        iframe {
+            width: 100%;
+            height: 315px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Наші послуги</h2>
+    <ul>
+        <li>Стрижка жіноча</li>
+        <li> Стрижка чоловіча</li>
+        <li>Фарбування волосся</li>
+        <li>Манікюр</li>
+        <li>Педикюр</li>
+        <li>Ламінування брів</li>
+      </ul>
+    <h2>Прайс салону краси</h2>
+      <table>
+        <thead>
+            <tr>
+                <th>Послуга</th>
+                <th>Ціна (грн)</th>
+                <th>Майстер</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Стрижка жіноча</td>
+                <td>300</td>
+                <td>Ольга – стиліст</td>
+            </tr>
+            <tr>
+                <td>Стрижка чоловіча</td>
+                <td>200</td>
+                <td>Андрій – перукар</td>
+            </tr>
+            <tr>
+                <td>Фарбування волосся</td>
+                <td>600</td>
+                <td>Марія – колорист</td>
+            </tr>
+            <tr>
+                <td>Манікюр</td>
+                <td>250</td>
+                <td>Наталія – майстер манікюру</td>
+            </tr>
+            <tr>
+                <td>Педикюр</td>
+                <td>350</td>
+                <td>Наталія – майстер манікюру</td>
+            </tr>
+            <tr>
+                <td>Ламінування брів</td>
+                <td>550</td>
+                <td>Катерина – майстер бровіст</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="container">
+       
+        <div class="image">
+            <img src="../Downloads/13.jpg" alt="салон краси">
+        </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/DY6daLEFJcg?si=T_886ZihaAU6J1v5" title="YouTube video player" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="video">
+
+        </div>
+    </div>
+
+</body>
+</html>
+<body>
+    <!-- Блок навігації -->
+    <nav>
+        <ul class="nav-menu">
+            <li><a href="#services">Наші послуги</a></li>
+            <li><a href="#price">Прайс</a></li>
+            <li><a href="#contact">Контакти</a></li>
+        </ul>
+    </nav>
+
+    <!-- Залиште існуючий контент без змін -->
+    <h1>Beauty Salon</h1>
+
+    <h2 id="services">Наші послуги</h2>
+    <ul>
+        <li>Стрижка жіноча</li>
+        <li>Стрижка чоловіча</li>
+        <li>Фарбування волосся</li>
+        <li>Манікюр</li>
+        <li>Педикюр</li>
+        <li>Ламінування брів</li>
+    </ul>
+
+    <h2 id="price">Прайс салону краси</h2>
+    <table>
+        <!-- Ваша таблиця з прайсом -->
+    </table>
+
+    <!-- Контент для секції контактів -->
+    <h2 id="contact">Контакти</h2>
+    <p>Адреса: м. Київ, вул. Прикладна, 10</p>
+    <p>Телефон: +380 00 000 0000</p>
+    <p>Email: info@beautysalon.ua</p>
+</body>
+/* Стилі для навігаційного меню */
+nav {
+    background-color: #f2f2f2;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+    color: #007BFF; /* Виділення при наведенні */
+}
